@@ -1,2 +1,2 @@
-# adblock-pc-DNS-Filter-Proxy
+# adblock-pc, DNS-Filter-Proxy
 
