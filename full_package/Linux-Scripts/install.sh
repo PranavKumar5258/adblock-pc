@@ -2,7 +2,9 @@
 
 # Check availbility of java
 
-
+if ! [ -x /usr/bin/java ]; then
+	echo "Java might not be installed yet. Use your package manager to install OpenJDK JRE first."
+	exit 1
 fi
 
 # Check sudo/root permission
