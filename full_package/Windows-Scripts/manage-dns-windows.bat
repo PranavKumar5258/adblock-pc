@@ -1,4 +1,10 @@
+@ECHO OFF
+SETLOCAL EnableDelayedExpansion
 
+title Manage pDNSf DNS
+color 0A
+chcp 65001 > nul
+mode con: cols=90 lines=27
 
 :: BatchGotAdmin
 REM  --> Check for permissions
